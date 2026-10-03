@@ -1,0 +1,8 @@
+{"run":"rc","seq":1,"target":"prod","method":"GET","path":"/api/teams","start":5,"dur":37,"outcome":"ok","status":200,"accept":200,"timeout":1500,"closed":true,"retry":0}
+{"run":"rc","seq":2,"target":"prod","method":"GET","path":"/api/teams","start":60,"dur":-5,"outcome":"ok","status":200,"accept":200,"timeout":1500,"closed":true,"retry":0}
+{"run":"rc","seq":3,"target":"prod","method":"GET","path":"/api/teams","start":120,"dur":44,"outcome":"ok","status":200,"accept":200,"timeout":1500,"closed":true,"retry":9}
+{"run":"rc","seq":4,"target":"sandbox","method":"POST","path":"/api/services","start":0,"dur":51,"outcome":"ok","status":201,"accept":201,"timeout":0,"closed":true,"retry":0}
+{"run":"rc","seq":5,"target":"sandbox","method":"POST","path":"/api/services","start":70,"dur":3,"outcome":"unauthorized","status":200,"accept":201,"timeout":1500,"closed":true,"retry":0}
+{"run":"rc","seq":6,"target":"sandbox","method":"GET","path
+{"run":"rc","seq":7,"target":"staging","method":"POST","path":"/api/teams","start":300,"dur":0,"outcome":"invalid_body","status":0,"accept":201,"timeout":1500,"closed":true,"retry":0}
+{"run":"rc","seq":1,"target":"staging","method":"GET","path":"/api/teams","start":200,"dur":9,"outcome":"ok","status":200,"accept":200,"timeout":1500,"closed":true,"retry":0}

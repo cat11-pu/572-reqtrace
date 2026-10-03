@@ -1,0 +1,7 @@
+{"run":"ra","seq":1,"target":"prod","method":"GET","path":"/api/teams","start":0,"dur":41,"outcome":"ok","status":200,"accept":200,"timeout":3000,"closed":true,"retry":0}
+{"run":"ra","seq":2,"target":"prod","method":"POST","path":"/api/teams","start":80,"dur":88,"outcome":"ok","status":201,"accept":201,"timeout":3000,"closed":true,"retry":0}
+{"run":"ra","seq":3,"target":"prod","method":"POST","path":"/api/teams","start":220,"dur":610,"outcome":"response","status":500,"accept":201,"timeout":3000,"closed":true,"retry":2}
+{"run":"ra","seq":4,"target":"prod","method":"POST","path":"/api/teams","start":900,"dur":122,"outcome":"ok","status":201,"accept":201,"timeout":3000,"closed":true,"retry":3}
+{"run":"ra","seq":5,"target":"sandbox","method":"GET","path":"/api/apps","start":30,"dur":55,"outcome":"unauthorized","status":401,"accept":200,"timeout":0,"closed":true,"retry":0}
+{"run":"ra","seq":6,"target":"sandbox","method":"GET","path":"/api/apps","start":120,"dur":64,"outcome":"ok","status":200,"accept":200,"timeout":0,"closed":false,"retry":0}
+{"run":"ra","seq":7,"target":"sandbox","method":"GET","path":"/api/services","start":210,"dur":0,"outcome":"invalid_host","status":0,"accept":200,"timeout":0,"closed":true,"retry":0}

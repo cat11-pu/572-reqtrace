@@ -1,0 +1,6 @@
+{"run":"rb","seq":1,"target":"staging","method":"GET","path":"/api/teams","start":0,"dur":900,"outcome":"request","status":0,"accept":200,"timeout":800,"closed":true,"retry":0}
+{"run":"rb","seq":2,"target":"staging","method":"GET","path":"/api/teams","start":950,"dur":812,"outcome":"request","status":0,"accept":200,"timeout":800,"closed":true,"retry":1}
+{"run":"rb","seq":3,"target":"staging","method":"GET","path":"/api/teams","start":1800,"dur":61,"outcome":"ok","status":200,"accept":200,"timeout":800,"closed":true,"retry":2}
+{"run":"rb","seq":4,"target":"staging","method":"GET","path":"/api/apps","start":1900,"dur":60,"outcome":"ok","status":200,"accept":200,"timeout":800,"closed":true,"retry":0}
+{"run":"rb","seq":6,"target":"staging","method":"DELETE","path":"/api/teams/dev","start":2100,"dur":73,"outcome":"response","status":404,"accept":204,"timeout":800,"closed":false,"retry":0}
+{"run":"rb","seq":5,"target":"staging","method":"GET","path":"/api/apps","start":1930,"dur":150,"outcome":"ok","status":200,"accept":200,"timeout":800,"closed":true,"retry":0}
